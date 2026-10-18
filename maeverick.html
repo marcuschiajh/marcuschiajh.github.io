@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Marcus Chia Jun Hock | Mechanical Engineering Student</h1>
+        </div>
+        <div id="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="home.html">Personal Projects</a>
+                <a href="intern.html">Internship Projects</a>
+                <a href="sch.html">School Projects</a>
+				<a href="about.html">About</a>
+
+            </div>
+        </div>
+       
+
+        <div id="content">
+			<h1>Tray return sorting and recycling</h1>
+			<h2>MAEverick 2026 - NTU</h2>
+			<h2>36 hour hackathon - Finished top 10</h2>
+			<img src="img/MAE/exp.jpg" width="800" />
+			<br><br>
+			Problem - When my friends and I were returning our trays at Koufu, North Spine, 
+			we noticed that the tray return stations were constantly clustered with little to no 
+			space to put our trays especially duing peak hours.
+			<br><br>
+			Over 36 hours, my team MAE 人鱼 designed a sorting machine from scratch
+			in SolidWorks. A motor-driven shredder separates plastic recyclables 
+			(disposable cups, containers, utensils, etc) from the liquid waste. The shreddered 
+			plastic is collected in a conatiner with a mesh at the bottom while the liquid drips into
+			the food waste bin for recycling.
+			We also did FEA on the pedal for the lid, shredder shaft, and its housing.
+			<br><br>
+			<video width="800" controls>
+				<source src="img/MAE/movement.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<br><br>
+			<table style="width:90%">
+				<tr>
+                    <td>
+						<h2>Final Assembly</h2>
+						<img src="img/MAE/Back.png" width="500" />
+					</td>
+                    <td>
+						<img src="img/MAE/Front.png" width="500" />
+					</td>
+				</tr>
+				<tr>
+                    <td>
+						<h2>Shredder Assembly</h2>
+						<img src="img/MAE/SB.png" width="500" />
+					</td>
+                    <td>
+						<img src="img/MAE/SF.png" width="500" />
+					</td>
+				</tr>
+				<tr>
+                    <td>
+						<h2>Trolley Assembly</h2>
+						<img src="img/MAE/Tr_F.png" width="500" />
+					</td>
+                    <td>
+						<img src="img/MAE/Tr_B.png" width="500" />
+					</td>
+				</tr>
+				<tr>
+                    <td>
+						<h2>FEA</h2>
+						<img src="img/MAE/FEA.jpg" width="500" />
+					</td>
+                    <td>
+						<img src="img/MAE/photo.jpg" width="500" />
+					</td>
+				</tr>
+			</table><br><br>
+			
+			
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2026 Marcus Chia Jun Hock.
+        </div>
+    </div>
+    
+
+    <script>
+window.onscroll = function() {menuFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function menuFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+</html>

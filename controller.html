@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Marcus Chia Jun Hock | Mechanical Engineering Student</h1>
+        </div>
+        <div id="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="home.html">Personal Projects</a>
+                <a href="intern.html">Internship Projects</a>
+                <a href="sch.html">School Projects</a>
+				<a href="about.html">About</a>
+
+            </div>
+        </div>
+       
+
+        <div id="content">
+			<h1>Custom Arcade Game Controller</h1>
+			<img src="img/controller/con4.jpg" width="800" />
+			<h2>Made from a PowerA controller for Nintendo Switch. </h2>
+			<h2>The controller is dismantled and arcade buttons are soldered on to contact pads on the circuit board.</h2>
+			<h2>The casing is laser cut from 3mm acrylic and the LED lights are powered by 8 AA battries.</h2>
+			<table style="width:90%">
+				<tr>
+                    <td>
+						<img src="img/controller/con8.jpg" width="500" />
+					</td>
+                    <td>
+						<img src="img/controller/con1.jpg" width="500" />
+					</td>
+				</tr>
+				<tr>
+                    <td>
+						<img src="img/controller/con2.jpg" width="500" />
+					</td>
+                    <td>
+						<img src="img/controller/con3.jpg" width="500" />
+					</td>
+				</tr>
+				<tr>
+                    <td>
+						<img src="img/controller/con5.jpg" width="500" />
+					</td>
+                    <td>
+						<img src="img/controller/con9.jpg" width="500" />
+					</td>
+				</tr>
+			</table><br><br>
+			
+			
+			
+			
+            
+			
+		
+            <br>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2026 Marcus Chia Jun Hock.
+        </div>
+    </div>
+    
+
+    <script>
+window.onscroll = function() {menuFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function menuFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+</html>

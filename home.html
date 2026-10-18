@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Marcus Chia Jun Hock | Mechanical Engineering Student</h1>
+        </div>
+        <div id="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="" class="active">Personal Projects</a>
+                <a href="intern.html">Internship Projects</a>
+                <a href="sch.html">School Projects</a>
+				<a href="about.html">About</a>
+
+            </div>
+        </div>
+       
+
+        <div id="content">
+			<h1>Personal Projects</h1>
+			
+			<div class='parent flex-parent'>
+			<div class='child flex-child'>
+				<div class="links">
+					<a href="vu.html">DIY VU Meter</a>
+				</div>
+			</div>
+				<div class='child flex-child'>
+					<img src="img/vu/vu1.jpeg" width="400" />
+				</div>
+			</div><br>
+			
+			<div class='parent flex-parent'>
+			<div class='child flex-child'>
+				<div class="links">
+					<a href="esc.html">3D Printed Minature Working Escalator</a>
+				</div>
+			</div>
+			<div class='child flex-child'>
+			<img src="img/esc/esc1.jpg" width="400" />
+			</div>
+			</div><br>
+			
+			<div class='parent flex-parent'>
+			<div class='child flex-child'>
+				<div class="links">
+					<a href="controller.html">Custom Arcade Game Controller</a>
+				</div>
+			</div>
+			<div class='child flex-child'>
+			<img src="img/controller/controller.jpg" width="400" />
+			</div>
+			</div><br>
+			
+			<div class='parent flex-parent'>
+			<div class='child flex-child'>
+				<div class="links">
+					<a href="keypad.html">Custom Mechanical Keypad</a>
+				</div>
+			</div>
+			<div class='child flex-child'>
+			<img src="img/keypad/keypad.png" width="400" />
+			</div>
+			</div><br>
+			
+			<div class='parent flex-parent'>
+			<div class='child flex-child'>
+				<div class="links">
+					<a href="cad.html">CAD Models and 3D Printing</a>
+				</div>
+			</div>
+			<div class='child flex-child'>
+			<img src="img/cad/car.jpeg" width="400" />
+			</div>
+			</div><br>
+			
+            <br>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2026 Marcus Chia Jun Hock.
+        </div>
+    </div>
+    
+
+    <script>
+window.onscroll = function() {menuFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function menuFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+</html>

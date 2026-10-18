@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Marcus Chia Jun Hock | Mechanical Engineering Student</h1>
+        </div>
+        <div id="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="home.html">Personal Projects</a>
+                <a href="intern.html">Internship Projects</a>
+                <a href="sch.html">School Projects</a>
+				<a href="about.html">About</a>
+
+            </div>
+        </div>
+       
+
+        <div id="content">
+			<h1>Internship Projects at Science Centre Singapore</h1>
+			<h2>Birefringence of Ice</h2>
+			To build a prototype to  show the birefringence of ice.
+			Birefringence means double refraction.
+			Birefringent material bends and split rays when it passes through it.
+			A spectrum of colours can be seen through a polarizer when polarized light is shined through the birefringent material.
+			<br><br>
+			<video width="800" controls>
+				<source src="img/ice/ice.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<img src="img/ice/info1.png" width="800" /><br>
+			The original method to create the birefringence of ice is to pour a bit of water
+			on the dish and put it in the fridge to freeze it and then place it on top of a 
+			polarized light source.<br><br>
+			This method is not practical as an exhibit as:<br>
+			- The thin ice will melt eventually<br>
+			- The process requires manpower to keep on replacing the sample<br><br>
+			The solution to make it self sustaining is to use a Thermoelectric Cooler TEC to:<br>
+			- To freeze the water to form a thin layer of ice<br>
+			- At the same time shine polarized light through it<br><br>
+
+			<h2>Proof of concept using a TEC</h2>
+			<table style="width:90%">
+				<tr>
+                    <td>
+						<img src="img/ice/ice12.jpeg" width="500" />
+					</td>
+                    <td>
+						<img src="img/ice/ice13.jpeg" width="500" />
+					</td>
+				</tr>
+			</table><br>
+			<h2>Prototype Design</h2>
+			<table style="width:90%">
+				<tr>
+                    <td>
+						<img src="img/ice/ice10.jpeg" width="500" />
+					</td>
+                    <td>
+						<img src="img/ice/ice11.jpeg" width="500" />
+					</td>
+					<tr>
+                    <td>
+						<img src="img/ice/concept.jpg" width="500" />
+					</td>
+                    <td>
+						<img src="img/ice/ice2.png" width="500" />
+					</td>
+					<tr>
+                    <td>
+						<img src="img/ice/ice15.jpg" width="500" />
+					</td>
+                    <td>
+						<img src="img/ice/ice16.jpg" width="500" />
+					</td>
+				</tr>
+			</table><br>
+			
+			
+            
+			
+		
+            <br>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2026 Marcus Chia Jun Hock.
+        </div>
+    </div>
+    
+
+    <script>
+window.onscroll = function() {menuFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function menuFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+</html>

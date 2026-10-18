@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Marcus Chia Jun Hock | Mechanical Engineering Student</h1>
+        </div>
+        <div id="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="home.html">Personal Projects</a>
+                <a href="intern.html">Internship Projects</a>
+                <a href="sch.html">School Projects</a>
+				<a href="about.html">About</a>
+
+            </div>
+        </div>
+       
+
+        <div id="content">
+			<h1>Internship Projects at Science Centre Singapore</h1>
+			<h2>Acoustic Levitation</h2>
+			To create a prototype for future exhibitions to demostrate how sound waves can be used to float objects.
+			<img src="img/levitation/info2.png" width="800" />
+			<table style="width:90%">
+				<tr>
+                    <td>
+						<h2>Proof of concept using cardboard</h2>
+						<img src="img/levitation/levi4.jpeg" width="500" />
+					</td>
+                    <td>
+						<h2>Prototype Design</h2>
+						<img src="img/levitation/levi7.png" width="500" />
+					</td>
+				</tr>
+			</table><br>
+			<h2>Other Prototype Designs</h2>
+			<table style="width:90%">
+				<tr>
+                    <td>
+						<img src="img/levitation/levi2.jpeg" width="500" />
+					</td>
+                    <td>
+						<img src="img/levitation/levi3.jpeg" width="500" />
+					</td>
+				</tr>
+				<tr>
+                    <td>
+						<img src="img/levitation/levi6.jpeg" width="500" />
+					</td>
+                    <td>
+						<img src="img/levitation/levi5.jpeg" width="500" />
+					</td>
+				</tr>
+			</table><br>
+			<h2>Presenting exhibit prototypes to visitors during last few weeks of internship</h2>
+			<img src="img/levitation/booth.jpeg" width="800" />
+
+			
+            <br>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2026 Marcus Chia Jun Hock.
+        </div>
+    </div>
+    
+
+    <script>
+window.onscroll = function() {menuFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function menuFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+</html>
