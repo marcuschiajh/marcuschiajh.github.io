@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Marcus Chia Jun Hock | Mechanical Engineering Student</h1>
+        </div>
+        <div id="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Personal Projects</a>
+                <a href="intern.html">Internship Projects</a>
+                <a href="sch.html">School Projects</a>
+				<a href="about.html">About</a>
+
+            </div>
+        </div>
+       
+
+        <div id="content">
+			<h1>Automated Warehouse Storage System</h1>
+			<h2>SP module Group Project</h2>
+			<h2>Items are placed on the shelf using an arm based on the shelf coordinate keyed in.</h2>
+			<table style="width:90%">
+				<tr>
+                    <td>
+						<img src="img/warehouse/warehouse.gif" width="500" />
+					</td>
+                    <td>
+						<img src="img/warehouse/ware1.jpg" width="500" />
+					</td>
+				</tr>
+				<tr>
+                    <td>
+						<img src="img/warehouse/ware2.jpg" width="500" />
+					</td>
+					<td>
+						<img src="img/warehouse/ware3.png" width="500" />
+                    </td>
+				</tr>
+			</table><br><br>
+			
+			
+			
+			
+            
+			
+		
+            <br>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2026 Marcus Chia Jun Hock.
+        </div>
+    </div>
+    
+
+    <script>
+window.onscroll = function() {menuFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function menuFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+</html>

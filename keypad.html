@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Marcus Chia Jun Hock | Mechanical Engineering Student</h1>
+        </div>
+        <div id="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Personal Projects</a>
+                <a href="intern.html">Internship Projects</a>
+                <a href="sch.html">School Projects</a>
+				<a href="about.html">About</a>
+
+            </div>
+        </div>
+       
+
+        <div id="content">
+			<h1>Custom Mechanical Keypad</h1>
+			<h2>Made using mechanical switches and Arduino Micro</h2>
+			<h2>- Programmable RGB LEDs</h2>
+			<h2>- Customisable Keys</h2>
+			
+			<table style="width:90%">
+				<tr>
+                    <td>
+						<img src="img/keypad/key1.jpeg" width="500" />
+					</td>
+                    <td>
+						<img src="img/keypad/key2.jpg" width="500" />
+					</td>
+				</tr>
+				<tr>
+                    <td>
+						<img src="img/keypad/keypad.png" width="500" />
+					</td>
+                    <td>
+					
+					</td>
+				</tr>
+			</table><br><br>
+			
+			
+            
+			
+		
+            <br>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2026 Marcus Chia Jun Hock.
+        </div>
+    </div>
+    
+
+    <script>
+window.onscroll = function() {menuFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function menuFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+</html>

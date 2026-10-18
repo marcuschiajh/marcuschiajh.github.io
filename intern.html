@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Marcus Chia Jun Hock | Mechanical Engineering Student</h1>
+        </div>
+        <div id="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Personal Projects</a>
+                <a href=""class="active">Internship Projects</a>
+                <a href="sch.html">School Projects</a>
+				<a href="about.html">About</a>
+
+            </div>
+        </div>
+       
+
+        <div id="content">
+			<h1>Internship Projects</h1>
+			
+			<div class='parent flex-parent'>
+			<div class='child flex-child'>
+				<div class="links">
+					<a href="birefringence.html">Birefringence of Ice - Science Centre Singapore</a>
+				</div>
+			</div>
+			<div class='child flex-child'>
+			<img src="img/ice/ice.jpeg" width="400" />
+			</div>
+			</div><br>
+			
+			<div class='parent flex-parent'>
+			<div class='child flex-child'>
+				<div class="links">
+					<a href="levi.html">Acoustic Levitation - Science Centre Singapore</a>
+				</div>
+			</div>
+			<div class='child flex-child'>
+			<img src="img/levitation/levitation.jpeg" width="400" />
+			</div>
+			</div><br>
+			
+            <br>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2026 Marcus Chia Jun Hock.
+        </div>
+    </div>
+    
+
+    <script>
+window.onscroll = function() {menuFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function menuFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+</html>

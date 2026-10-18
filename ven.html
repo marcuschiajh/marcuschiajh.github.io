@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Marcus Chia Jun Hock | Mechanical Engineering Student</h1>
+        </div>
+        <div id="navbar">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Personal Projects</a>
+                <a href="intern.html">Internship Projects</a>
+                <a href="sch.html">School Projects</a>
+				<a href="about.html">About</a>
+
+            </div>
+        </div>
+       
+
+        <div id="content">
+			<h1>Mini Coin-operated Vending Machine</h1>
+			<h2>Made using Arduino UNO</h2><br>
+			<h2>Features</h2>
+			- Accepts $1 coin only, other smaller coins will fall through the sorter.<br>
+			- Buttons with LED to indicate options.<br>
+			- Mechanism to return coin<br>
+			- LED to indicate snack is dispensed<br><br>
+			<h2>How it works</h2>
+			- When coin is inserted, the passive infrared sensor, detects the coin.<br>
+			- The options light up.<br>
+			- If coin return is selected, a servo diverts to coin in to the return slot.<br>
+			- If the snack option is selected, a servo pushes the snack in to the dispensing slot.<br><br>
+			<table style="width:90%">
+				<tr>
+                    <td>
+						<img src="img/ven/ven1.png" width="500" />
+					</td>
+                    <td>
+						<img src="img/ven/ven.gif" width="500" />
+					</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<img src="img/ven/ven4.jpg" width="500" />
+					</td>
+                    <td>
+						<img src="img/ven/ven7.jpg" width="500" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/ven/ven3.jpg" width="500" />
+					</td>
+                    <td>
+						<img src="img/ven/ven2.jpg" width="500" />
+					</td>
+				</tr>
+			</table><br>
+			
+			
+            
+			
+		
+            <br>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2026 Marcus Chia Jun Hock.
+        </div>
+    </div>
+    
+
+    <script>
+window.onscroll = function() {menuFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function menuFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+
+</body>
+</html>
